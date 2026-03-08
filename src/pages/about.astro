@@ -1,13 +1,8 @@
 ---
-<<<<<<< HEAD
 import '../styles/global.css';
 
 const pageTitle = "About Me";
 
-=======
-const pageTitle = "About Me";
-
->>>>>>> 1977ffc8ffbf1fa7980264d2235fc31903a0bcd8
 const identity = {
   firstName: "Sarah",
   country: "Canada",
@@ -20,13 +15,11 @@ const skills = ["HTML", "CSS", "JavaScript", "React", "Astro", "Writing Docs"];
 const happy = true;
 const finished = false;
 const goal = 3;
-<<<<<<< HEAD
 
 const skillColor = "crimson";
 const fontWeight = "bold";
 const textCase = "uppercase";
-=======
->>>>>>> 1977ffc8ffbf1fa7980264d2235fc31903a0bcd8
+
 ---
 
 <html lang="en">
@@ -36,8 +29,7 @@ const textCase = "uppercase";
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
     <title>{pageTitle}</title>
-<<<<<<< HEAD
-    
+
         <style define:vars={{skillColor, fontWeight, textCase}}>
       h1 {
         color: purple;
@@ -50,20 +42,15 @@ const textCase = "uppercase";
   }
     </style>
 
-=======
->>>>>>> 1977ffc8ffbf1fa7980264d2235fc31903a0bcd8
+
 	</head>
 	<body>
 		<a href="/">Home</a>
 <a href="/about/">About</a>
 <a href="/blog/">Blog</a>
 
-<<<<<<< HEAD
     <h1>{pageTitle}</h1>
 
-=======
-    <title>{pageTitle}</title>
->>>>>>> 1977ffc8ffbf1fa7980264d2235fc31903a0bcd8
   <h2>... and my new Astro site!</h2>
 
   <p>I am working through Astro's introductory tutorial. This is the second page on my website, and it's the first one I built myself!</p>
@@ -81,11 +68,9 @@ const textCase = "uppercase";
 </ul>
 <p>My skills are:</p>
 <ul>
-<<<<<<< HEAD
+
   {skills.map((skill) => <li class="skill">{skill}</li>)}
-=======
-  {skills.map((skill) => <li>{skill}</li>)}
->>>>>>> 1977ffc8ffbf1fa7980264d2235fc31903a0bcd8
+
 </ul>
 
 {happy && <p>I am happy to be learning Astro!</p>}
